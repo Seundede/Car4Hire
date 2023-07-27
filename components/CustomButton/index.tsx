@@ -1,9 +1,13 @@
-import React from 'react'
+"use client";
+import { CustomButtonProps } from "@/types";
+import React from "react";
 
-const CustomButton = () => {
+const CustomButton = ({ title, containerStyles, handleClick }:CustomButtonProps) => {
   return (
-    <div>CustomButton</div>
-  )
-}
+    <button className={`outline-none py-3 px-6 ${containerStyles}`} onClick={handleClick }>
+      {title}
+    </button>
+  );
+};
 
-export default CustomButton
+export default CustomButton;
