@@ -7,7 +7,7 @@ const handleScroll = () => {};
 
 const Hero = () => {
   return (
-    <section className="flex flex-col lg:flex-row justify-between items-center px-[20px] lg:px-[40px] ">
+    <section className="flex flex-col lg:flex-row justify-between items-center px-[20px] lg:px-[40px] w-full">
       <div className="pt-[60px] ">
         <h2 className="font-bold text-[40px] lg:text-[70px]">
           Premium Car Rental in Nigeria
