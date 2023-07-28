@@ -7,8 +7,8 @@ const handleScroll = () => {};
 
 const Hero = () => {
   return (
-    <section className="flex flex-col lg:flex-row justify-between items-center px-[20px] lg:px-[40px] w-full">
-      <div className="pt-[60px] ">
+    <section className="flex flex-col lg:flex-row justify-between items-center px-[30px] lg:px-[70px] w-full">
+      <div className="pt-[60px] flex-1 ">
         <h2 className="font-bold text-[40px] lg:text-[70px]">
           Premium Car Rental in Nigeria
         </h2>
@@ -22,7 +22,7 @@ const Hero = () => {
           handleClick={handleScroll}
         />
       </div>
-      <div className="pt-[60px]">
+      <div className="pt-[60px] flex-1">
         <Image src="/hero.jpg" alt="hero image" width={1500} height={1500} />
       </div>
     </section>

@@ -4,7 +4,7 @@ import CustomButton from "../CustomButton";
 import Link from "next/link";
 const Navbar = () => {
   return (
-    <header className="px-[20px] lg:px-[40px] w-full h-[75px]  text-black flex items-center justify-between">
+    <header className="px-[30px] lg:px-[70px] w-full h-[75px]  text-black flex items-center justify-between">
       <Link href="/">
         <BsCarFrontFill size={35} />
       </Link>
